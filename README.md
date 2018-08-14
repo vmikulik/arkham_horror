@@ -14,6 +14,7 @@ navigate to the resulting directory, and run the script using
 
 `python arkham.py [-h] [-a ADD] [-r RM] CAMPAIGN DIFFICULTY`
 
+`
 positional arguments:
   CAMPAIGN           The name of the campaign being played
   DIFFICULTY         The difficulty level
@@ -22,3 +23,4 @@ optional arguments:
   -h, --help         show this help message and exit
   -a ADD, --add ADD  Add this token to the specified pool
   -r RM, --rm RM     Remove this token from the specified pool
+`
