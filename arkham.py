@@ -1,7 +1,6 @@
 # terminal interface for drawing chaos tokens.
 
 import argparse
-from os import system
 import chaos
 
 parser = argparse.ArgumentParser(description="Digital chaos tokens for Arkham Horror LCG.")
@@ -32,13 +31,10 @@ if __name__ == '__main__':
     running = True
     while running:
         cmd = input("").lower()
-        system('clear')
         if cmd == 'q' or cmd == 'quit':
             running = False
             break
         else:
-            print()
-            print("🎲:  "+ bag.draw())
-            print()
+            print("🎲: "+ bag.draw())
 
     
