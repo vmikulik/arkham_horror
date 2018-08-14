@@ -6,21 +6,12 @@ Disclaimer: I do not own any rights to the Arkham Horror property, etc., etc. Th
 
 ## using this utility
 
-clone the repo using
+Clone the repo using
 
 `git clone https://github.com/vmikulik/arkham_horror.git`
 
-navigate to the resulting directory, and run the script using 
+Navigate to the resulting directory, and run the help using
 
-`python arkham.py [-h] [-a ADD] [-r RM] CAMPAIGN DIFFICULTY`
+`python arkham.py --help`
 
-`
-positional arguments:
-  CAMPAIGN           The name of the campaign being played
-  DIFFICULTY         The difficulty level
-
-optional arguments:
-  -h, --help         show this help message and exit
-  -a ADD, --add ADD  Add this token to the specified pool
-  -r RM, --rm RM     Remove this token from the specified pool
-`
+The program will provide usage instructions.
