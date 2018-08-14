@@ -59,7 +59,7 @@ class Bag():
         return "Bag({})".format(",".join([str(token) for token in self.tokens]))
 
     def draw(self):
-        print(str(choice(self.tokens)))
+        return(str(choice(self.tokens)))
 
     def add(self, value):
         self.tokens.append(Token(value))
@@ -68,6 +68,7 @@ class Bag():
         self.tokens.remove(Token(value))
 
 if __name__ == '__main__':
+    # run some tests:
     bag = Bag()
     print("Empty bag: " + str(bag))
     bag = Bag([])
