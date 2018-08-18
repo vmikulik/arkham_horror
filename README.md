@@ -26,6 +26,8 @@ Disclaimer: I do not own any rights to the Arkham Horror property, etc., etc. Th
 
 ## using this utility
 
+Requires `python 3.6+`.
+
 Clone the repo using
 
 `git clone https://github.com/vmikulik/arkham_horror.git`
